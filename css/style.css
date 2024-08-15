@@ -1,0 +1,218 @@
+     body {
+       margin: 0;
+       padding: 0;
+       background: #fff;
+     }
+
+
+     /* Principal */
+
+
+     
+     .conteudo {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -100%);
+     }
+
+     .google {
+       position: relative;
+       width: 380px;
+       top: 80px;
+     }
+
+     /*Inserção da pesquisa*/
+
+     .barra_pesquisa {
+       width: 500px;
+       height: 45px;
+       position: absolute;
+       transform: translate(-20%, 50%);
+       display: inline-block;
+       
+     }
+
+     input[type="text"] {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       left: 0;
+       border-radius: 50px;
+       border: 1px solid #d5d4d4;
+       outline: none;
+       padding: 0 40px 0 45px;
+       font-size: 16px;
+       font-family: Arial, sans-serif;
+       box-shadow: 0 2px 10px -7px #000;
+     }
+
+     .icones_pesquisas {
+       top: 13px;
+       left: 18px;
+       color: #777;
+       font-size: 21px;
+       z-index: 1;
+       position: absolute;
+       cursor: default;
+
+     }
+
+     /* Detalhezinhos de fotos */
+
+     .mic {
+       position: absolute;
+       width: 14px;
+       right: -28px;
+       top: 13px;
+       cursor: pointer;
+     }
+
+     .tec {
+       position: absolute;
+       right: 5px;
+       top: 16.5px;
+       width: 22px;
+       cursor: pointer;
+
+     }
+
+     .cam {
+       width: 32px;
+       height: 32px;
+       position: absolute;
+       right: -74px;
+       top: 7px;
+       cursor: pointer;
+     }
+
+     /* Os dois botoões do google */
+
+     .botoes_envios {
+       position: relative;
+       top: 100px;
+       text-align: center;
+     }
+
+     input[type="submit"] {
+       background-color: #f8f9fa;
+       border: 1px solid #f8f9fa;
+       border-radius: 4px;
+       color: #3c4043;
+       font-family: Arial, sans-serif;
+       font-size: 14px;
+       margin: 11px 4px;
+       padding: 0 16px;
+       line-height: 27px;
+       height: 36px;
+       min-width: 54px;
+       text-align: center;
+       cursor: pointer;
+       user-select: none;
+     }
+
+     input[type="submit"]:hover {
+       box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+       background-color: #f8f9fa;
+       border: 1px solid #dadce0;
+       color: #202124
+     }
+
+     input[type="submit"]:focus {
+       border: 1px solid #4285f4;
+       outline: none
+     }
+
+     /* Parte da Navegação, Gmail, Imagens e Avatar/Conta */
+
+     nav {
+       float: right;
+       font-family: arial;
+       font-size: 13px;
+     }
+
+     .avatar {
+       width: 35px;
+       border-radius: 50%;
+       margin: 10px 20px 0 0;
+       cursor: pointer;
+     }
+
+     .navegacao {
+       color: #444;
+       text-decoration: none;
+       top: -12px;
+       position: relative;
+       margin: 5px;
+     }
+
+     .navegacao:hover {
+       text-decoration: underline;
+     }
+
+     .apps {
+       position: relative;
+       margin: 10px;
+       top: -6px;
+       color: #555;
+       cursor: pointer;
+     }
+
+     /*Rodapé */
+
+     .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #f2f2f2;
+      font-size: 17px;
+      font-family: Arial, sans-serif;
+      color: #1f1f1f;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .footer a{
+      text-decoration: none;
+    }
+    .footer a:hover{
+      text-decoration: underline;
+    }
+    
+    .footer_section:not(:first-child) {
+      border-top: 1px solid #e4e4e4;
+    }
+    
+    .localizacao {
+      font-size: 16px;
+      color: #1f1f1f;
+      padding: 15px 30px;
+      border-bottom: 1px solid #dadce0;
+      display: flex;
+      justify-content: flex-start;
+      cursor: default;
+    }
+    
+    .info {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+    }
+    
+    .left, .right {
+      color: #1f1f1f;
+      white-space: nowrap;
+      font-size: 15px;
+      font-family: Arial, sans-serif;
+    }
+    
+    .left {
+      display: flex;
+      gap: 30px;
+    }
+    
+    .right {
+      display: flex;
+      gap: 30px;
+    }
+    
